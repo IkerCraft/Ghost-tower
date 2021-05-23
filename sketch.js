@@ -44,7 +44,7 @@ function draw (){
     t.velocityY=3;
     console.log(t.height);
     console.log(t.y);
-    if(t.y>550){
+    if(t.y>500){
       t.y=t.height/4;
     }
     if(keyDown("space")){
